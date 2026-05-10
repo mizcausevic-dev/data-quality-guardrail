@@ -1,0 +1,143 @@
+{
+  "dataset_name": "revops_pipeline_snapshot",
+  "generated_at": "2026-05-10T09:42:00Z",
+  "allowed_freshness_minutes": 90,
+  "required_columns": [
+    "snapshot_id",
+    "account_id",
+    "opportunity_id",
+    "stage",
+    "pipeline_amount",
+    "win_probability",
+    "owner_email",
+    "last_activity_days"
+  ],
+  "range_rules": {
+    "pipeline_amount": { "min": 0, "max": 2500000 },
+    "win_probability": { "min": 0, "max": 100 },
+    "last_activity_days": { "min": 0, "max": 365 }
+  },
+  "records": [
+    {
+      "snapshot_id": "snap-001",
+      "account_id": "acct-100",
+      "opportunity_id": "opp-001",
+      "stage": "proposal",
+      "pipeline_amount": 145000,
+      "win_probability": 68,
+      "owner_email": "rep-a@kineticgain.com",
+      "last_activity_days": 4
+    },
+    {
+      "snapshot_id": "snap-001",
+      "account_id": "acct-100",
+      "opportunity_id": "opp-001",
+      "stage": "proposal",
+      "pipeline_amount": 145000,
+      "win_probability": 68,
+      "owner_email": "rep-a@kineticgain.com",
+      "last_activity_days": 4
+    },
+    {
+      "snapshot_id": "snap-002",
+      "account_id": "acct-101",
+      "opportunity_id": "opp-002",
+      "stage": "negotiation",
+      "pipeline_amount": 3900000,
+      "win_probability": 112,
+      "owner_email": "rep-b@kineticgain.com",
+      "last_activity_days": 17
+    },
+    {
+      "snapshot_id": "snap-003",
+      "account_id": "acct-102",
+      "opportunity_id": "opp-003",
+      "stage": "discovery",
+      "pipeline_amount": 85000,
+      "win_probability": 29,
+      "owner_email": null,
+      "last_activity_days": 2
+    },
+    {
+      "snapshot_id": "snap-004",
+      "account_id": "acct-103",
+      "opportunity_id": "opp-004",
+      "stage": "commit",
+      "pipeline_amount": 520000,
+      "win_probability": 83,
+      "owner_email": "rep-d@kineticgain.com",
+      "last_activity_days": 438
+    },
+    {
+      "snapshot_id": "snap-005",
+      "account_id": "acct-104",
+      "opportunity_id": "opp-005",
+      "stage": "proposal",
+      "pipeline_amount": 120000,
+      "win_probability": 61,
+      "owner_email": "rep-e@kineticgain.com",
+      "last_activity_days": 7,
+      "unexpected_field": "new-source"
+    },
+    {
+      "snapshot_id": "snap-006",
+      "account_id": "acct-105",
+      "opportunity_id": "opp-006",
+      "stage": "commit",
+      "pipeline_amount": 650000,
+      "win_probability": 88,
+      "owner_email": "rep-f@kineticgain.com",
+      "last_activity_days": 11
+    },
+    {
+      "snapshot_id": "snap-007",
+      "account_id": "acct-106",
+      "opportunity_id": "opp-007",
+      "stage": "negotiation",
+      "pipeline_amount": 220000,
+      "win_probability": 55,
+      "owner_email": "rep-g@kineticgain.com",
+      "last_activity_days": 23
+    },
+    {
+      "snapshot_id": "snap-008",
+      "account_id": "acct-107",
+      "opportunity_id": "opp-008",
+      "stage": "discovery",
+      "pipeline_amount": 94000,
+      "win_probability": 31,
+      "owner_email": "rep-h@kineticgain.com",
+      "last_activity_days": 5
+    },
+    {
+      "snapshot_id": "snap-009",
+      "account_id": "acct-108",
+      "opportunity_id": "opp-009",
+      "stage": "proposal",
+      "pipeline_amount": 174000,
+      "win_probability": 47,
+      "owner_email": "rep-i@kineticgain.com",
+      "last_activity_days": 9
+    },
+    {
+      "snapshot_id": "snap-010",
+      "account_id": "acct-109",
+      "opportunity_id": "opp-010",
+      "stage": "discovery",
+      "pipeline_amount": 56000,
+      "win_probability": 24,
+      "owner_email": "rep-j@kineticgain.com",
+      "last_activity_days": 3
+    },
+    {
+      "snapshot_id": "snap-011",
+      "account_id": "acct-110",
+      "opportunity_id": "opp-011",
+      "stage": "commit",
+      "pipeline_amount": 730000,
+      "win_probability": 79,
+      "owner_email": "rep-k@kineticgain.com",
+      "last_activity_days": 14
+    }
+  ]
+}
